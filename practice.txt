@@ -13,11 +13,13 @@ function multiply(){
 }
 console.log(multiply());
 
-function capitalize(){
-   let person = "David";
-   return person;
-}
-console.log(capitalize());
+1. function capitalize(word){
+2.  word.toLowerCase ()
+3. let capital = word.charAt(0).toUpperCase()
+4. new_word = capital+""+word.subsString(1,word.length);
+5. return new_word;
+6. }
+7. console.log(capitalize("lisa");
 
 function lastLetter(){
    let txt = "Hi, Lisa";
