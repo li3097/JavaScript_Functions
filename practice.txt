@@ -6,23 +6,27 @@ function add7(){
    let number = 1;
    return number + 7;
 }
-console.log(add7);
+console.log(add7());
 function multiply(){
    let num1 = 5, num2 = 2;
    return num1 * num2;  
 }
-console.log(multiply);
+console.log(multiply());
+
 function capitalize(){
-   let
+   let person = "David";
+   return person;
 }
-console.log(capitalize);
+console.log(capitalize());
 
 function lastLetter(){
    let txt = "Hi, Lisa";
    txt[7];
 }
-console.log(lastLetter);
+console.log(lastLetter());
 </script>
 </head>
-<body></body>
+<body>
+
+</body>
 </html>
